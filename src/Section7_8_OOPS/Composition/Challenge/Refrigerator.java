@@ -1,0 +1,15 @@
+package Section7_8_OOPS.Composition.Challenge;
+
+public class Refrigerator {
+
+    private boolean hasWorkToDo;
+
+    public void setHasWorkToDo(boolean hasWorkToDo) {
+        this.hasWorkToDo = hasWorkToDo;
+    }
+
+    public void orderFood(){
+        if (hasWorkToDo)
+            System.out.println("Ordering Food..");
+    }
+}
